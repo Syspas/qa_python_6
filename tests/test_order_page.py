@@ -1,9 +1,9 @@
 import pytest
 import allure
 from utils.urls import Urls
-from pages.home_page import YaScooterHomePage
 from pages.order_page import YaScooterOrderPage
 from utils.locators import YaScooterOrderPageLocator
+from pages.home_page import YaScooterHomePage
 from utils.test_data import YaScooterOrderPageData as order_data
 
 

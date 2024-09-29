@@ -66,3 +66,4 @@ class YaScooterTrackPageLocator:
 
 class YandexPageLocator:
     DOWNLOAD_BUTTON = [By.XPATH, ".//a[text='Установить']"]
+

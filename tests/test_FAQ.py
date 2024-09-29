@@ -1,8 +1,9 @@
 import pytest
 import allure
 from pages.home_page import YaScooterHomePage
-from utils.test_data import YaScooterHomePageFAQ
 from utils.locators import YaScooterHomePageLocator
+from utils.test_data import YaScooterHomePageFAQ
+
 
 
 @allure.epic('Эпик_Upgrade Main page / ui usability')

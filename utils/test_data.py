@@ -12,27 +12,27 @@ class YaScooterHomePageFAQ:
 class YaScooterOrderPageData:
     data_sets = {
         'data_set1': {
-            'first_name': 'Тест',
-            'last_name': 'Тестовна',
-            'address': 'Доставочная улица',
-            'subway_name': 'Беговая',
-            'telepthone_number': '79164136022',
-            'date': '19.02.2024',
-            'rental_period': 0,
-            'color': [0],
-            'comment_for_courier': 'Буду в черной куртке и черной кепке',
-            'description': 'Корректные данные'
+            'first_name': 'Иван',
+            'last_name': 'Иванов',
+            'address': 'Улица Солнечная, дом 5',
+            'subway_name': 'Сокол',
+            'telephone_number': '79012345678',
+            'date': '25.12.2023',
+            'rental_period': 3,
+            'color': [1, 2],  # например, 1 - красный, 2 - синий
+            'comment_for_courier': 'Мне понадобятся пакет с зарядкой',
+            'description': 'Обновленные данные пользователя1'
         },
-        'data_set2':
-            {'first_name': 'Тестовая',
-             'last_name': 'Тестенко',
-             'address': 'Самокатная улица',
-             'subway_name': 'Лубянка',
-             'telepthone_number': '89776545277',
-             'date': '20.02.2024',
-             'rental_period': 1,
-             'color': [0, 1],
-             'comment_for_courier': 'Предпочтительно синий самокат',
-             'description': 'Корректные данные'
-             },
+        'data_set2': {
+            'first_name': 'Иван',
+            'last_name': 'Иванов',
+            'address': 'Лесная улица',
+            'subway_name': 'Китай-город',
+            'telepthone_number': '89231234567',
+            'date': '25.03.2024',
+            'rental_period': 3,
+            'color': [1, 0],
+            'comment_for_courier': 'Предпочтительно красный самокат',
+            'description': 'Изменённые данные2'
+        },
     }

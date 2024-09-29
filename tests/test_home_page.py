@@ -48,3 +48,4 @@ class TestYaScooterHomePage:
         current_url = ya_scooter_home_page.current_url()
 
         assert (Urls.YANDEX_HOME_PAGE in current_url) or (Urls.DZEN_HOME_PAGE in current_url) or (Urls.YANDEX_CAPTCHA_PAGE in current_url)
+

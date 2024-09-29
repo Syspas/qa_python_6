@@ -1,8 +1,8 @@
 import re
-
+import allure
 from pages.base_page import BasePage
 from utils.locators import YaScooterOrderPageLocator as Locators
-import allure
+
 
 
 class YaScooterOrderPage(BasePage):

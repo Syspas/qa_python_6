@@ -2,8 +2,8 @@ import allure
 from pages.base_page import BasePage
 from utils.locators import BasePageLocator
 from selenium.webdriver.support.wait import WebDriverWait
-from utils.locators import YaScooterHomePageLocator as Locators
 from selenium.webdriver.support import expected_conditions as EC
+from utils.locators import YaScooterHomePageLocator as Locators
 
 
 class YaScooterHomePage(BasePage):
